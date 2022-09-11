@@ -15,6 +15,12 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,800;1,100;1,800&family=Monoton&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
@@ -23,7 +29,7 @@
     <title>Responsive Online Portfolio - Olha Mostipan</title>
   </head>
   <body>
-    <!-- <div class="nav"> -->
+    <div class="nav-container">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand my-brand" href="#">O.Mostipan</a>
@@ -46,7 +52,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html#contact">Projects</a>
+                <a class="nav-link" href="index.html#project-page">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About me</a>
@@ -70,49 +76,61 @@
         </h3>
       </span>
       <div class="contact-link-container">
-        <a class="links" href="about.html#contact"
-          >Let's talk business</a
-        >
+        <a class="links" href="about.html#contact">Let's talk business</a>
       </div>
     </div>
-    <h2 class="projects-title">My Projects</h2>
+    <h2 id="project-page" class="projects-title">My Projects</h2>
     <div class="container">
-      <div class="row mt-5">
+      <div class="row project-block">
         <div class="col-sm-6">
-          <img src="images/yummy-vegitables.png" alt="Yummy vegitables lending page" />
+          <img
+            src="images/yummy-vegitables.png"
+            alt="Yummy vegitables lending page"
+          />
         </div>
         <div class="col-sm-6">
           <p class="title">
-            <strong>Vegitables Lending Page</strong>
+            <strong>Lending Page</strong>
           </p>
-          <p>
-            This is my first project. I've never coded before. Here I've created a landing page about vegitables. 
-            You can text me there on my email and make an order. 
-            Also you can read more information about vegetables and find out why they are so helpful, which vitamines there are included in.
+          <p class="project-description">
+            This is my first project. Here I've created a landing page about
+            vegitables. You can text me there on my email and make an order.
+            Also you can read more information about vegetables and find out why
+            they are so helpful. Here I used the following technologies like
+            HTML, CSS, JavaScript.
           </p>
           <br />
-          <a class="links" href="">Check it out</a>
+          <a
+            class="links"
+            href="https://www.shecodes.io/workshops/shecodes-basics-562033c3-7715-4c26-ac0a-caadddc3ae16/projects/970999"
+            >Check it out</a
+          >
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row project-block reverse-project">
         <div class="col-sm-6">
           <p class="title">
             <strong> Weather App </strong>
           </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
-            debitis quod provident asperiores corporis doloremque repudiandae
-            accusantium, minus modi culpa similique incidunt rem doloribus, nisi
-            velit aliquam aut reprehenderit voluptatum!
+          <p class="project-description">
+            This Weather App can share real-time weather information. Type your
+            location or anywhere in the world into the search bar to find your
+            accurate forecast. Here I used the following technologies like HTML,
+            CSS, JavaScript, API, Bootstrap, GitHub. Check out the app and
+            interact with it!
           </p>
           <br />
-          <a class="links" href="">Check it out</a>
+          <a
+            class="links"
+            href="https://www.shecodes.io/workshops/shecodes-plus-5ca2643b-5c58-470a-a2b5-cec87a6456dc/projects/1086315"
+            >Check it out</a
+          >
         </div>
         <div class="col-sm-6">
           <img src="images/weather-app.png" alt="app for checking weather" />
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row">
         <div class="col-sm-6">
           <img src="images/portfolio.png" alt="app " />
         </div>
@@ -120,14 +138,14 @@
           <p class="title">
             <strong> Portfolio App </strong>
           </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
-            debitis quod provident asperiores corporis doloremque repudiandae
-            accusantium, minus modi culpa similique incidunt rem doloribus, nisi
-            velit aliquam aut reprehenderit voluptatum!
+          <p class="project-description">
+            This app was designed to be an example of a portfolio. During this
+            project, I've learned how to make websites responsive. Here I used
+            the following technologies like HTML, CSS, Bootstrap, GitHub,
+            Flexbox, SEO, Responsive.
           </p>
           <br />
-          <a class="links" href="">Check it out</a>
+          <a class="links" href="https://keen-praline-61ae6c.netlify.app">Check it out</a>
         </div>
       </div>
     </div>

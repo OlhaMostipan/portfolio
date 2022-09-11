@@ -15,7 +15,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+p {
+  font-family: monospace;
+}
+.container {
+  margin-bottom: 25px;
+}
+.nav-container {
+  font-family: 'Roboto', sans-serif;
+}
 .links {
+  font-family: 'Roboto', sans-serif;
   background-color: #540B77;
   color: #ffffff;
   text-decoration: none;
@@ -24,6 +34,7 @@ img {
   border-radius: 4px;
   border: 2px solid #540B77;
   transition: all 200ms ease-in-out;
+  font-size: 18px;
 }
 .links:hover {
   color:#540B77;
@@ -42,16 +53,18 @@ img {
   background-repeat: no-repeat;
 }
 .last-name {
+  font-family: 'Kanit', sans-serif;
   font-size: 150px;
   color: rgba(0, 0, 0, 0.4);
   letter-spacing: 10px;
-  font-weight: 900;
+  font-weight: 800;
 }
 .first-name {
+  font-family: 'Kanit', sans-serif;
   font-size: 150px;
   color: rgba(0, 0, 0, 0.4);
   letter-spacing: 10px;
-  font-weight: 200;
+  font-weight: 100;
 }
 .img-star {
   height: 60px;
@@ -60,14 +73,32 @@ img {
 .h3-text {
   margin-right: 150px;
   font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 .nav {
   max-width: 900px;
   margin: 0 100px;
 }
+.title {
+  font-size: 40px;
+}
+.projects-title {
+  text-align: center;
+  margin: 70px 0;
+  font-size: 64px;
+  font-weight: 700;
+  color: #540B77;
+  font-family: 'Roboto', sans-serif;
+}
+.project-block{
+  margin: 80px 0;
+}
 @media (max-width: 1050px) {
   h1, h2 {
     margin-left: 60px;
+  }
+  p {
+    font-size: 12px;
   }
   .last-name {
     font-size: 100px;
@@ -83,16 +114,78 @@ img {
     margin-right: 60px;
     font-size: 14px;
   }
+  .hero {
+    height: 450px;
+  }
+  .project-description {
+    margin-bottom: 4px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .links {
+    font-size: 12px;
+  }
+  .project-block{
+    margin: 40px 0;
+  }
 }
-@media (max-width: 700px) {
+@media (max-width: 640px) {
   h1, h2 {
     margin-left: 30px;
   }
+  img {
+    margin: 10px 0;
+  }
   .last-name {
-    font-size: 35px;
+    font-size: 70px;
   }
   .first-name { 
-    font-size: 35px;
+    font-size: 70px;
+  }
+  .h3-text { 
+    font-size: 12px;
+    margin-right: 30px;
+  }
+  .img-star {
+    height: 20px;
+    width: 15px;
+  }
+  .contact-link-container {
+    margin-right: 30px;
+    font-size: 8px;
+  }
+  .hero {
+    height: 300px;
+  }
+  .projects-title {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  .project-block{
+    margin: 30px 0;
+  }
+}
+@media (max-width: 575px) {
+  .reverse-project  {
+    flex-direction: column-reverse;
+  }
+  .project-block{
+    margin: 100px 0;
+  }
+}
+@media (max-width: 470px) {
+  h1, h2 {
+    margin-left: 30px;
+  }
+  img {
+    margin: 10px 0;
+  }
+  .last-name {
+    font-size: 40px;
+  }
+  .first-name { 
+    font-size: 40px;
   }
   .h3-text { 
     font-size: 8px;
@@ -106,10 +199,14 @@ img {
     margin-right: 30px;
     font-size: 8px;
   }
-}
-.title {
-  font-size: 40px;
-}
-.projects-title {
-  text-align: center;
+  .hero {
+    height: 200px;
+  }
+  .projects-title {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  .project-block{
+    margin: 80px 0;
+  }
 }
