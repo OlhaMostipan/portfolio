@@ -23,6 +23,9 @@ p {
   font-size: 24px;
   align-items: center;
 }
+.about-body {
+  background-color: #240234;
+}
 .nav-container {
   font-family: var(--defalt-font-family);
 }
@@ -74,11 +77,53 @@ p {
   background-color: #ffffff;
   border: 2px solid var(--main-color);
 }
+.about-projects-link {
+  font-family: var(--defalt-font-family);
+  color: #240234;;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 2px solid  #ffffff;
+  transition: all 200ms ease-in-out;
+  font-size: 18px;
+  max-width: 180px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-projects-link:hover {
+  max-width: 200px;
+  padding: 10px 22px;
+  color: var(--main-color);
+}
+.my-photo {
+  border-radius: 4px;
+  padding: 7px;
+  background-color: #ffffff;
+}
 .contact-link-container {
   display: flex;
   justify-content: flex-end;
   margin-right: 150px;
 }
+.about-section h1 {
+  color:#ffffff;
+  font-size: 58px;
+  margin: 0;
+  text-align: center;
+}
+.about-section h2 {
+  text-align: center;
+  color:#ffffff;
+  font-size: 22px;
+  margin: 0;
+}
+.about-section p {
+  color:#ffffff;
+  text-indent: 30px;
+}
+
 .projects-container {
   margin: 0 35px 40px 35px;
 }
@@ -108,9 +153,6 @@ p {
 @media (max-width: 1050px) {
   h1, h2 {
     margin-left: 60px;
-  }
-  p {
-    font-size: 12px;
   }
   .last-name {
     font-size: 100px;
@@ -145,7 +187,21 @@ p {
   }
   .project-description {
     margin-bottom: 10px;
+    font-size: 12px;
   }
+}
+@media (max-width:991px) {
+  .my-photo {
+    display: block;
+    margin: 0 auto;
+  }
+  .about-section h1 {
+    margin-top: 30px;
+  }
+  .about-section p {
+    text-align: center;
+  }
+
 }
 @media (max-width: 640px) {
   h1, h2 {
@@ -235,5 +291,14 @@ p {
   .projects-page-title {
     font-size: 32px;
     margin: 20px 0;
+  }
+  .about-section h1 {
+    font-size: 34px;
+  }
+  .about-section h2 {
+    font-size: 15px;
+  }
+  .about-section p {
+    font-size: 12px;
   }
 }
