@@ -150,6 +150,34 @@ p {
 .project-description {
   margin-bottom: 35px;
 }
+footer .mail-link {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+footer .mail-link:hover {
+  color: var(--main-color);
+}
+footer .media-icons{
+  display: flex;
+  justify-content: center;
+}
+footer .media-icons a{
+  font-size: 22px;
+  color: var(--main-color);
+  background: #ffffff;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+  margin: 10px 15px;
+}
+footer .media-icons a:hover {
+  background: #f5f2fd;
+}
 @media (max-width: 1050px) {
   h1, h2 {
     margin-left: 60px;
