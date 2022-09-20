@@ -16,6 +16,11 @@ img {
 p {
   font-family: monospace;
 }
+h4 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
 .hero h3 {
   display: flex;
   justify-content: flex-end;
@@ -177,6 +182,24 @@ footer .media-icons a{
 }
 footer .media-icons a:hover {
   background: #f5f2fd;
+}
+.about-footer-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 46px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.about-footer a{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.about-footer a:hover{
+  opacity: 1;
+  color: #ffffff;
 }
 @media (max-width: 1050px) {
   h1, h2 {
