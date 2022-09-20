@@ -204,6 +204,10 @@ footer .media-icons a:hover {
   opacity: 1;
   color: #ffffff;
 }
+.github-code {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
 @media (max-width: 1050px) {
   h1, h2 {
     margin-left: 60px;
