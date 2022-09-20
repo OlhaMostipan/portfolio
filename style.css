@@ -197,6 +197,9 @@ footer .media-icons a:hover {
   text-decoration: none;
   opacity: 0.6;
 }
+.about-footer a:last-child {
+  margin-bottom: 50px;
+}
 .about-footer a:hover{
   opacity: 1;
   color: #ffffff;
